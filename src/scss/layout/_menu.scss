@@ -23,14 +23,11 @@
     ul{
        flex-direction: column;
         list-style: none;
-        //overflow: scroll;
-        display: flex;
         align-items:center;
         justify-content: space-around;
         margin: 0; 
         padding: 2rem 0;
         margin:0;
-        display:none;
         li{
             width: auto;
             float: left;
