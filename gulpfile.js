@@ -15,7 +15,7 @@ const paths ={
 function css(){
     return src(paths.scss)
     .pipe(sass({outputStyle: 'compressed'}))
-    .pipe(dest('./build/css'))
+    .pipe(dest('./public/'))
 }
 function watchArchivos(){
     watch(paths.scss, css);
