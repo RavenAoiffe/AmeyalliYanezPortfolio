@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState } from 'react';
+
+import Header from './components/Header';
+import Principal from './components/Principal';
+import Descripcion from './components/Descripcion';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <p>Ameyalli Yanez</p>
-    </>
+    <div className="container">
+    <Header/>
+
+    <Principal>
+    <h1>UI/UX Developer / Frontend Developer / UX writing</h1>
+    </Principal>
+
+    <Descripcion/>
+    </div>
   )
 }
 
