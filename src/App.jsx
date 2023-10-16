@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from './components/Header';
 import Principal from './components/Principal';
 import Descripcion from './components/Descripcion';
+import Swipper from './components/Swipper';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
     </Principal>
 
     <Descripcion/>
+    <h2 className='mt-10 mb-10 font-size-4rem'>Proyectos</h2>
+    <Swipper></Swipper>
     </div>
   )
 }
