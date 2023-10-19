@@ -16,12 +16,16 @@
     }
 } 
 .carousel-caption {
-    background: #373434a3;
+    background: rgb(28 28 28);
     width: 100%;
     right: 0!important;
     left: 0!important;
     p{
         color:$blanco;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
+}
+
+.carousel-indicators {
+    bottom: 6px;
 }

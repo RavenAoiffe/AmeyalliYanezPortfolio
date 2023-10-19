@@ -12,6 +12,9 @@ b,strong{
         flex-direction: column;
     }
 }
+.mt-11{
+    margin-top:11rem;
+}
 .mt-10{
     margin-top:4rem;
 }
@@ -35,4 +38,21 @@ b,strong{
 }
 .color-darkgray{
     color:$darkGray;
+}
+.bg-blanco{
+    background-color: $blanco;
+}
+
+.hidden-desktop{
+    display: none!important;
+    @include tablet{
+        display: block!important;
+    }
+}
+
+.hidden-mobile{
+    display: block!important;
+    @include tablet{
+        display: none!important;
+    }
 }
