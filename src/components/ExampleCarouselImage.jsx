@@ -1,11 +1,16 @@
-import image from '/img/principal.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
-const ExampleCarouselImage = () => {
+const ExampleCarouselImage = ({project}) => {
+    const {image,link} = project;
+    console.log(image)
     return (
-        <div className='principal'> 
-            <img
-            src={image} alt="portafolio"/>
-        </div>
+        <a href={link} target='_blank' rel='noopener'>
+            <div className='flex carousel-project justify-space align-center' > 
+                <img
+                src={image} alt="portafolio"/>
+                <p>
+                </p>
+            </div>
+        </a>
     );
 }
 

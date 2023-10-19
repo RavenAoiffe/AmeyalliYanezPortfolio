@@ -1,5 +1,27 @@
 .carousel-indicators button {
-    border: 1px solid #000!important;
-    width: 30px!important;
+    border: 1px dotted #000!important;
+    width: 10px!important;
     height: 10px!important;
 } 
+
+.carousel-project{
+    height: 550px;
+     @include tablet{
+        height: 280px;
+     }
+    img{
+        max-width: 1200px    ;
+        width: 100%;
+        height: fit-content;
+    }
+} 
+.carousel-caption {
+    background: #373434a3;
+    width: 100%;
+    right: 0!important;
+    left: 0!important;
+    p{
+        color:$blanco;
+        font-size: 1.5rem;
+    }
+}
