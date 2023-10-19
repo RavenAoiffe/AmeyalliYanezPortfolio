@@ -29,7 +29,7 @@ const Header = () => {
     const stickNavbar = () => {
       if (window !== undefined) {
         let windowHeight = window.scrollY;
-        windowHeight > 100 ? setStickyClass(true) : setStickyClass(false);
+        windowHeight > 50 ? setStickyClass(true) : setStickyClass(false);
       }
     };
 
