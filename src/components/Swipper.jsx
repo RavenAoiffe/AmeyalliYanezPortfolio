@@ -67,6 +67,30 @@ const Swipper = () => {
         "image":"/img/portafolio/muestra.png",
         "description":"lorem impusummsds",
         "tecno":"HTML | SCSS | JAVASCRIPT | GULP | NodeJs"
+      },
+      {
+        "project":"Administrador de Pacientes de Veterinaria",
+        "anios":"2020",
+        "link":"https://jazzy-peony-e5c7f8.netlify.app/",
+        "image":"/img/portafolio/veterinaria.png",
+        "description":"lorem impusummsds",
+        "tecno":"React JS | TailwindCSS | LocalStorage"
+      },
+      {
+        "project":"Administrador de clientes",
+        "anios":"2020",
+        "link":"https://comfy-cassata-d55953.netlify.app/",
+        "image":"/img/portafolio/cliente.png",
+        "description":"lorem impusummsds",
+        "tecno":"React JS | TailwindCSS | JSON Server | API | React Router DOM"
+      },
+      {
+        "project":"Planificador de gastos",
+        "anios":"2020",
+        "link":"https://aesthetic-bunny-021704.netlify.app/",
+        "image":"/img/portafolio/planificador.png",
+        "description":"lorem impusummsds",
+        "tecno":"React JS  | LocalStorage | State"
       }
     ]
   return (
