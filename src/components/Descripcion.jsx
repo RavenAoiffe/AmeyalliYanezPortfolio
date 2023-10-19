@@ -2,7 +2,7 @@ import React from 'react';
 
 const Descripcion = () => {
     return (
-        <div className='mt-3 text description'>
+        <div id="presentacion" className='mt-3 text description'>
             <p>
                <b>
                 Apasionada de la programación web y la literatura. Soy un híbrido. Me gusta mucho el diseño UI/UX y

@@ -15,17 +15,7 @@ const Header = () => {
       }
   }
 
-  const enlaces = [
-    'presentacion',
-    'Porta',
-    'Experiencia'
-  ]
 
-  const locationWindow = e =>{
-     // e.preventDefault();
-      console.log(e.target.id)
-      window.location.href = e.target.id;
-  }
 return(
 <nav id="menu">
   <p className="fechas">
@@ -64,25 +54,18 @@ return(
   <ul id="navegacion"
   className={abrirmenu ? 'navegacion-principal flex' : 'navegacion-principal hidden' }>
     <li>
-      <a href="#" className="cerrar" onClick={abrirMenuClick}>
+      <a  className="cerrar" onClick={abrirMenuClick}>
         X
       </a>
     </li>
     <li>
-    <AnchorLink href='#presentacion'>Things</AnchorLink>
-      <a className="enlace">
-        Sobre mi
-      </a>
+    <AnchorLink href='#presentacion'>Presentación</AnchorLink>
     </li>
     <li>
-      <a className="enlace">
-        Proyectos
-      </a>
+    <AnchorLink href='#portafolio'>Portafolio</AnchorLink>
     </li>
     <li>
-      <a className="enlace">
-        Experiencia
-      </a>
+    <AnchorLink href='#experiencia'>Experiencia</AnchorLink>
     </li>
     <li>
       <a className="enlace hidden" href="#Educacion">

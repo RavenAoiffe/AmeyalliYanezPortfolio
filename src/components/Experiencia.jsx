@@ -1,7 +1,7 @@
 
 const Experiencia = () => {
     return (
-        <div className="">
+        <div id="experiencia">
             <div className="bloque flex experiencia">
                 <div className="cuadro-primero cuadro text-center">
                     <div className="cuadro-flotante">
