@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className='mt-3 text description footer'>
+        <div className='mt-11 text description footer'>
         <p>
            Ameyalli Yáñez | Frontend Developer | Writing 
         </p>
