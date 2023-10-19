@@ -1,8 +1,8 @@
-import image from '/img/principal.jpg';
+import image from '/img/Foto.jpg';
 
 const Principal = ({children}) => {
     return (
-        <div className='principal'> 
+        <div className='principal flex align-center justify-center'> 
             <img
             src={image} alt="portafolio"/>
             {children}
