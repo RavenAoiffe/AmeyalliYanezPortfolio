@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from './ExampleCarouselImage';
-
+import { generarId } from '../../helpers';
 
 const Swipper = () => {
  
@@ -70,18 +70,20 @@ const Swipper = () => {
       }
     ]
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
-      {projectList.map(project =>(
-        <Carousel.Item>
-          <ExampleCarouselImage project={project} text="First slide" />
-          <Carousel.Caption>
-            <h3>{project.project}</h3>
-            <p>{project.tecno}</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      ))}
-
-  </Carousel>
+    <div id="portafolio">
+        <Carousel activeIndex={index} onSelect={handleSelect}>
+          {projectList.map(project =>(
+            <Carousel.Item key={generarId()}>
+              <ExampleCarouselImage 
+                  project={project} text="First slide" />
+                    <Carousel.Caption>
+                      <h3>{project.project}</h3>
+                      <p>{project.tecno}</p>
+                    </Carousel.Caption>
+                  </Carousel.Item>
+              ))}
+          </Carousel>
+    </div>
   );
 }
 
