@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Header = () => {
@@ -15,9 +15,27 @@ const Header = () => {
       }
   }
 
+  //navbar
+  const [stickyClass, setStickyClass] = useState(false);
+
+    useEffect(() => {
+      window.addEventListener('scroll', stickNavbar);
+
+      return () => {
+        window.removeEventListener('scroll', stickNavbar);
+      };
+    }, []);
+
+    const stickNavbar = () => {
+      if (window !== undefined) {
+        let windowHeight = window.scrollY;
+        windowHeight > 100 ? setStickyClass(true) : setStickyClass(false);
+      }
+    };
 
 return(
-<nav id="menu">
+<nav id="menu" className={stickyClass ? 'fijo' : '' }>
+  <div className="container">
   <p className="fechas">
     <strong>Ameyalli </strong>
     Yáñez
@@ -54,18 +72,13 @@ return(
   <ul id="navegacion"
   className={abrirmenu ? 'navegacion-principal flex' : 'navegacion-principal hidden' }>
     <li>
-      <a  className="cerrar" onClick={abrirMenuClick}>
-        X
-      </a>
+    <AnchorLink href='#presentacion' onClick={abrirMenuClick}>Presentación</AnchorLink>
     </li>
     <li>
-    <AnchorLink href='#presentacion'>Presentación</AnchorLink>
+    <AnchorLink href='#portafolio' onClick={abrirMenuClick}>Portafolio</AnchorLink>
     </li>
     <li>
-    <AnchorLink href='#portafolio'>Portafolio</AnchorLink>
-    </li>
-    <li>
-    <AnchorLink href='#experiencia'>Experiencia</AnchorLink>
+    <AnchorLink href='#experiencia' onClick={abrirMenuClick}>Experiencia</AnchorLink>
     </li>
     <li>
       <a className="enlace hidden" href="#Educacion">
@@ -99,6 +112,7 @@ return(
     </li>
  
   </ul>
+  </div>
 </nav>
 
 )
