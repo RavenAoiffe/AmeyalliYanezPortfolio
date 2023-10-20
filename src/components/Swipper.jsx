@@ -55,7 +55,7 @@ const Swipper = () => {
       {
         "project":"PAPIAM",
         "anios":"2020",
-        "link":"https://cmm.cenart.gob.mx/Eurojazz",
+        "link":"https://papiam.cenart.gob.mx/",
         "image":"/img/portafolio/papiam.png",
         "description":"lorem impusummsds",
         "tecno":"HTML | SCSS | JAVASCRIPT | GULP | NodeJs"
@@ -63,7 +63,15 @@ const Swipper = () => {
       {
         "project":"Muestra Papiam",
         "anios":"2020",
-        "link":"https://cmm.cenart.gob.mx/Eurojazz",
+        "link":"https://muestrapapiam.cenart.gob.mx/",
+        "image":"/img/portafolio/muestra.png",
+        "description":"lorem impusummsds",
+        "tecno":"HTML | SCSS | JAVASCRIPT | GULP | NodeJs"
+      },
+      {
+        "project":"Laboratorio LEIVA",
+        "anios":"2020",
+        "link":"https://leiva.cenart.gob.mx/",
         "image":"/img/portafolio/muestra.png",
         "description":"lorem impusummsds",
         "tecno":"HTML | SCSS | JAVASCRIPT | GULP | NodeJs"
