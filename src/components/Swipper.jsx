@@ -101,7 +101,6 @@ const Swipper = () => {
               <ExampleCarouselImage 
                   project={project} text="First slide" />
                     <Carousel.Caption>
-                      <h3>{project.project}</h3>
                       <p>{project.tecno}</p>
                     </Carousel.Caption>
                   </Carousel.Item>

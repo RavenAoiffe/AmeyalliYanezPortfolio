@@ -4,10 +4,7 @@ const ExampleCarouselImage = ({project}) => {
     return (
         <a href={link} target='_blank' rel='noopener'>
             <div className='flex carousel-project justify-space align-center' > 
-                <img
-                src={image} alt="portafolio"/>
-                <p>
-                </p>
+                <h1>{project.project}</h1>
             </div>
         </a>
     );
