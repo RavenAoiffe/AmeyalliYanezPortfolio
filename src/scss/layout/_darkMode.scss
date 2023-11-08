@@ -1,0 +1,24 @@
+.bg-neutral-900{
+    background-color: $darkGray;
+    #menu{
+    background-color: $darkGray!important;
+    .menu_movil {
+        span
+        {
+            background-color: $blanco!important;
+        }
+    }
+    }
+    h1,h2,h3,h4,h5,p,a,li{
+        color: aliceblue!important;
+    }
+    .cuadro-flotante{
+        background-color: transparent!important;
+    }
+    .icono-menu{
+        filter: invert(1);
+    }
+} 
+.transition{}
+.ease-in-out{}
+.delay-150{}

@@ -33,6 +33,21 @@ const Header = () => {
       }
     };
 
+    const [darkMode, setDarkMode] = useState(false);
+
+    const activeDarkMode = () =>{
+      if(darkMode){
+        setDarkMode(false)
+        document.body.classList.remove('bg-neutral-900');
+      }
+      else{
+        setDarkMode(true)
+         document.body.classList.add('bg-neutral-900');
+         document.body.classList.add('transition');
+         document.body.classList.add('ease-in-out'); 
+         document.body.classList.add('delay-150');
+      }
+    }
 return(
 <nav id="menu" className={stickyClass ? 'fijo' : '' }>
   <div className="container">
@@ -58,8 +73,7 @@ return(
       >
         <span className="github icono-menu" />
       </a>
-      <a href="#" style={{ display: "none" }} className="mas noche">
-        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEmUlEQVR4nO2Zz08bRxTHrSpSDk3+hTaRqrRSo/S/qHIIp1659YcqVVWI2TUGDGsbJH7aYGx+Gb9Zi0PBOUBABmPtm1rqpScS1CY55lCp6iEkElRVm5Bmq7fyWuvFxuPx2s3BT3rSsrvMfD8z78cs+Hxd61rXukaWTqevA8A3ALAJAD8zxp4xxv5ijL0GgJeMsSMAuA8A9wDgM9+7YIlE4rKu618zxp4yxswm/QljzJ9Kpa50XLimae/puv49APwhIbzKAeAYAPo0TbvUEfG6rl8DgFKrwmv4w0wm83FbxUcikS8A4KQN4s2ynzLGetoiXlGU3nA4/Myx9eb8/LwZjUbNoaEhU1VVMxAImKFQyJyamrKeS0KcAUCvp+L7+/t7FEV5Mzc395YmWV5eNkdGRizR9XxiYqKVnTgDgDueiPf7/TcURTklUaurq2YymbRW+iLx5MFg0Jmo5uTkpHWPfHx83Eyn040g/tR1/ZOWxFNlUBTl0Ba1sLAgJJ58cHCwImZ6evrccwo1aBBmAHDYUnVSFKVPRGwtJ9G2EBJb653Z2dlzoin0aJcceXRXSryqqlcVRTmWET86Olq1uvV2LRQKnQMYGBioPI/H41afyGQyV2VWX5Fd/ZWVlar4v+jdeDxeBTA8PFx5Rtfl+34ZgKeyAGtraxVBBNPo/Wg0WknqWCxWuU+7YR87mhV/yzlBOBy2XBTAFkRO1yK/EwwGzaWlJWvHKH+oCFDlshcik8ncbAbALwJADSwSiVgiaULZHVMdEM7dc7l4MquqmhNd6bGxMcsJpFUAVVWtHlGrvNIxXRggEAg88QqAKhAJODg4MLPZrBBEJBKxur0L4JEwgKZpb2oNTMcHEm3XdQob+pkmrBdCuq6bnHPLEVG6lzDGngsDxGKxf2sNaK+2aGLSYc8Wb3szuRJ0HEcYY/8IA2Sz2bNaA9LKE0C9zuo8clDIuMWTU6cVBQhVNzpxgEKh8ILoZROxnnjyzc3Nmp05mUxayZtIJKzqRvPTtVQIcc5/WVxcbAsAOQl1HhlUVRU5nR41A3CfRNCZRgZgY2PjQgDyfD5f1XU1TbOO6/UAdF1/IAxgGIafJtne3q46m4j6zMxMQwC7Ko04PowodOqIN3d2dqaFARDxlnOlqJo0A0JCRAB4OSdopymkqIm5xVPvyOfzbw3D+EAYoAzxq3uyra0tIQAqlaIA3OGFQsHM5XLm+vq6JZyui8UiPTtsSrwzjGTqOJ2bZAB4/VD7rmmAYrH4PiI+dw9GX1GNAFKplJcAv+3v71/2yRgi9rkH3N3dvTAfqJo0KqNNrv63PlkrlUqXOOcP3YPu7e1Z3ZaSj5oSAVEC0seLl+I55z+RBmmAMsRHnPMTL2NacOVfcs4/9HlhiNiDiGcdBHhlGMZtT8Q7IHo7AYGIfxuG4c1f5dxGAyPiaRsBTjjnn7dFvAPiBjWWNoj/0bOYb2RUGRDxLuf82APhv1Ojon+adES8C+QKdWxEfCwR648R8UvpJuW1cc4/pV1BxBwiPuKcv6BqgoivqaMj4hEi/oCIX5VKpWv/t96uda1rvnfD/gM0dKahps3mYgAAAABJRU5ErkJggg==" />
+      <a onClick={activeDarkMode} className={darkMode ? 'sun icono-menu' : 'noche icono-menu'}>
       </a>
     </div>
     <div id="menu_movil" className={abrirmenu ? 'menu_movil close' : 'menu_movil' } onClick={abrirMenuClick}>
