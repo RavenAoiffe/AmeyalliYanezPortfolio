@@ -2,10 +2,16 @@
     display: grid; 
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(300px, auto);
+    max-width: 920px;
+    margin:0 auto;
     .layout{
-        border:1px solid #000;
+        border:1px solid;
+        position: relative;
+        display: flex;
+    flex-direction: column;
+    overflow: hidden;
         &.square-big {
-            grid-column: 1 / 3;
+            grid-column: 1 /1;
             grid-row: 1/3;
         }
         &.square-small {
@@ -16,17 +22,35 @@
             grid-column: 2;
             grid-row: 2;
         }
-        &.square-four {
-            grid-column: 1;
-            grid-row: 1;
+        &.square {
+            grid-column: auto;
+            grid-row: auto;
         }
-        &.square-five {
-            grid-column: 1;
-            grid-row:2;
+
+        img{
+            width: 100%;
+            float: left;
+            /* max-width: 320px; */
+            width: fit-content;
         }
-        &.square-six {
-            grid-column: 2;
-            grid-row: 1/3;
+        .descripcion {
+                position: absolute;
+            top: 0;
+            background: #ffffff94;
+            width: 0;
+            height: 0;
+            left:-100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            transition: 1s ease-in-out;
+        }
+        &:hover .descripcion{
+            width: 100%;
+            left:0;
+            height: 100%;
         }
     }
 }

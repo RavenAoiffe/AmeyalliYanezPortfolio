@@ -32,6 +32,9 @@
             margin-right: auto;
             font-size: 1.875rem;
             line-height: 1.8;
+            @include tablet{
+                width: 90%;
+            }
         }
     }
 }

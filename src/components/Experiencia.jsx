@@ -13,7 +13,9 @@ const Experiencia = () => {
                     <ul>
                         <li>Diseño de sitios web</li>
                         <li>Maquetación y programación de sitios web</li>
-                        <li>HTML, CSS, JS, JQuery, Gulp, SCSS, NodeJs, ReactJs</li>
+                        <li>HTML, JS, JQuery, Gulp, NodeJs, ReactJs</li>
+                        <li>CSS, TailwindCSS, Bootstrap, SCSS, LESS</li>
+                        <li>Wordpress, Strapi</li>
                     </ul>
                 </div>
             </div>
@@ -28,7 +30,7 @@ const Experiencia = () => {
                     <ul>
                         <li>Look & Feel para plataformas commerce SAP</li>
                         <li>Trabajo conjunto con Emarsys SAP</li>
-                        <li>Manejo de CSS, LESS y Bootstrap HTML</li>
+                        <li>Manejo de CSS, LESS, Bootstrap y HTML</li>
                         <li>Jquery, Javascript Vanilla y uso de librerías</li>
                         <li>JIRA</li>
                         <li>Trabajo con metodologías ágiles</li>
@@ -52,7 +54,7 @@ const Experiencia = () => {
                 <div className="imagenCuadro">
                     <p>2017-2018</p>
                     <ul>
-                        <li>Maquetación en css, html y JS</li>
+                        <li>Maquetación con CSS, HTML y JS</li>
                         <li>Sitios Responsivos - Bootstrap</li>
                         <li>Creación de propuestas de Diseño Web</li>
                     </ul>

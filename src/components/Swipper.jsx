@@ -2,7 +2,6 @@ import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import ExampleCarouselImage from './ExampleCarouselImage';
 import { generarId } from '../../helpers';
-
 const Swipper = () => {
  
     const [index, setIndex] = useState(0);
