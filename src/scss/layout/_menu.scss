@@ -103,6 +103,25 @@
 #menu_movil {
     flex-direction: column;
     display: flex;
+    transition: all 1s;
+    &.close{
+        transition: rotate 1s;
+        span:nth-child(1){
+            rotate: 40deg;
+        transition: rotate 1s;
+
+            margin-top: 11px;
+        }
+        span:nth-child(2){
+            display: none;
+            transition: display .5s;
+        }
+        span:nth-child(3){
+            rotate: -40deg;
+            transition: rotate 1s;
+            margin-top: -8px;
+        }
+    }
 }
 
 a.cerrar {
