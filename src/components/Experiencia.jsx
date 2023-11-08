@@ -2,6 +2,8 @@
 const Experiencia = () => {
     return (
         <div id="experiencia">
+      <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Experiencia</h2>
+
             <div className="bloque flex experiencia">
                 <div className="cuadro-primero cuadro text-center">
                     <div className="cuadro-flotante">

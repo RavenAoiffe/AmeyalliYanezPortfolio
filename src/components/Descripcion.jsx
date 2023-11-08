@@ -2,7 +2,9 @@ import React from 'react';
 
 const Descripcion = () => {
     return (
-        <article id="presentacion" className='mt-3 text description'>
+      <div id="presentacion">
+      <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Sobre mí</h2>
+      <article className='mt-3 text description'>
             <p>
                <b>
                 Apasionada de la programación web y la literatura. Me interesa el diseño UI/UX y
@@ -17,6 +19,8 @@ const Descripcion = () => {
                 necesaria. Seguir aprendiendo y capacitándome es vital para mi.
             </p>
         </article>
+      </div>
+      
     );
 }
 

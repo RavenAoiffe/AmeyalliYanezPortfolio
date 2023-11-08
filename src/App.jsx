@@ -19,10 +19,8 @@ function App() {
       </Principal>
 
       <Descripcion/>
-      <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Proyectos</h2>
       <Swipper></Swipper>
 
-      <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Experiencia</h2>
       <Experiencia id="Experiencia"></Experiencia>
     </div>
      <Footer/>

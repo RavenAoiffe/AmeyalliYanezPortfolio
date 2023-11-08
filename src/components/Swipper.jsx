@@ -102,6 +102,7 @@ const Swipper = () => {
     ]
   return (
     <div id="portafolio">
+      <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Proyectos</h2>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           {projectList.map(project =>(
             <Carousel.Item key={generarId()}>
