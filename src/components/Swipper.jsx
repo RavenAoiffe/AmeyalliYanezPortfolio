@@ -14,7 +14,7 @@ const Swipper = () => {
       {
         "project":"Escrituras Digitales",
         "anios":"2019",
-        "link":"https://cmm.cenart.gob.mx/edigitales",
+        "link":"https://cmm.cenart.gob.mx/edigitales/2019",
         "image":"/img/portafolio/escrituras1328.png",
         "description":"lorem impusummsds",
         "tecno":"HTML | CSS | JAVASCRIPT | JQUERY | Diseño"
