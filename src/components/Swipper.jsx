@@ -17,7 +17,7 @@ const Swipper = () => {
         "link":"https://cmm.cenart.gob.mx/edigitales/2019",
         "image":"/img/portafolio/escrituras1328.png",
         "description":"lorem impusummsds",
-        "tecno":"HTML | CSS | JAVASCRIPT | JQUERY | Diseño"
+        "tecno":"HTML | CSS | JAVASCRIPT | JQUERY | Diseño 2019"
       },
       {
         "project":"Fabrica de Producción Editorial",
@@ -25,7 +25,7 @@ const Swipper = () => {
         "link":"https://cmm.cenart.gob.mx/Fabrica_Editorial",
         "image":"/img/portafolio/fabrica1328.png",
         "description":"lorem impusummsds",
-        "tecno":"HTML | CSS | JAVASCRIPT | JQUERY | Diseño 2018"
+        "tecno":"HTML | CSS | JAVASCRIPT | JQUERY | Diseño 2018 - 2020"
       },
       {
         "project":"DiseñaLab",
