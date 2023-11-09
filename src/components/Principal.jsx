@@ -1,4 +1,4 @@
-import image from '/img/Foto_2.JPG';
+//import image from '/img/Foto_2.JPG';
 
 const Principal = ({children}) => {
     return (
