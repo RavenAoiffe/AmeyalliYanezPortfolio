@@ -33,3 +33,7 @@
 .carousel-indicators {
     bottom: 6px;
 }
+.carousel-indicators .active {
+    opacity: 1;
+    background: black!important;
+}

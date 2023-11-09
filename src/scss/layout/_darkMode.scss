@@ -18,4 +18,8 @@
     .icono-menu{
         filter: invert(1);
     }
+    .carousel-indicators .active {
+        opacity: 1;
+        background: white!important;
+    }
 } 
