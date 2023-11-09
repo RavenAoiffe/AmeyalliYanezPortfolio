@@ -18,8 +18,11 @@
     .icono-menu{
         filter: invert(1);
     }
-    .carousel-indicators .active {
+    .carousel-indicators .active { 
         opacity: 1;
         background: white!important;
+    }
+    #navegacion.flex{
+        background-color: $darkGray!important;
     }
 } 
