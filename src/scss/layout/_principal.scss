@@ -2,7 +2,7 @@
     position:relative;
     min-height: 700px;
     @include tablet{
-        min-height: 500px;
+        min-height:auto;
     }
     h1{
         z-index: 12;
