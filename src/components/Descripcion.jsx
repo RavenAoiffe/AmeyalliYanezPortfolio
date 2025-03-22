@@ -3,7 +3,7 @@ import React from 'react';
 const Descripcion = () => {
     return (
       <div id="presentacion">
-      <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Sobre mí</h2>
+      <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Presentación</h2>
       <article className='mt-3 text description'>
             <p>
                <b>
