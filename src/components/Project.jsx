@@ -16,7 +16,7 @@ const projectList = [
     {
       "project":"Fabrica de Producción Editorial",
       "anios":"2019",
-      "link":"https://cmm.cenart.gob.mx/Fabrica_Editorial",
+      "link":"https://cmm.cenart.gob.mx/Fabrica_Editoria/Anteriores/2024",
       "image":imgFabrica,
       "description":"lorem impusummsds",
       "class":"square-small",

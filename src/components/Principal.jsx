@@ -1,3 +1,4 @@
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Principal = ({children}) => {
     return (
@@ -9,20 +10,14 @@ const Principal = ({children}) => {
             <nav className="nav-hero">
                 <ul>
                     <li>
-                        <a href='#presentacion'>Presentación</a>
-                    </li>
-                    <li>
-                        <a href="#">Portafolio</a>
-                    </li>
-                    <li>
-                        <a href="#">Experiencia</a>
-                    </li>
-                    <li>
-                        <a href="#">Línea del tiempo</a>
-                    </li>
-                    <li>
-                        <a href="#">Contacto</a>
-                    </li>
+                        <AnchorLink href='#presentacion' >Presentación</AnchorLink>
+                        </li>
+                        <li>
+                        <AnchorLink href='#portafolio' >Portafolio</AnchorLink>
+                        </li>
+                        <li>
+                        <AnchorLink href='#experiencia' >Experiencia</AnchorLink>
+                        </li>
                 </ul>
             </nav>
         </div>

@@ -22,7 +22,7 @@ const Swipper = () => {
       {
         "project":"Fabrica de Producción Editorial",
         "anios":"2019",
-        "link":"https://cmm.cenart.gob.mx/Fabrica_Editorial",
+        "link":"https://cmm.cenart.gob.mx/Fabrica_Editorial/Anteriores/2024",
         "image":"/img/portafolio/fabrica1328.png",
         "description":"lorem impusummsds",
         "tecno":"HTML | CSS | JAVASCRIPT | JQUERY | Diseño 2018 - 2020"
