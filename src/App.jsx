@@ -15,7 +15,8 @@ function App() {
     <Header/>
     <div className="container">
       <Principal>
-      <h1>UI/UX Developer / Frontend Developer / UX writing</h1>
+        <h1>Ameyalli Yáñez</h1>
+        <p>UI/UX Developer / Frontend Developer / UX writing</p>
       </Principal>
 
       <Descripcion/>
