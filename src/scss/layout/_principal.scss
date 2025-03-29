@@ -1,7 +1,8 @@
 .principal{
     position:relative;
-    min-height: 700px;
+    min-height: 550px;
     justify-content: space-between;
+    align-items: flex-end;
     @include tablet{
         min-height:auto;
     }
@@ -9,9 +10,9 @@
         z-index: 12;
         width: 100%;
         color: $darkGray;
-        font-weight: 900;
-        font-size: 5rem;
-        text-align: center;
+        font-weight: 600;
+        font-size: 3rem;
+        text-align: left;
         @include tablet{
             font-size: 2rem;
             padding: 4rem;
@@ -30,9 +31,10 @@
             margin:0;
             padding: 0;
             li{
-                font-size: 7rem;
+                font-size: 10rem;
                 a{
                     text-decoration: none;
+                    font-weight: 800;
                     color:$negro;
                     &:hover{
                         font-style: italic;
