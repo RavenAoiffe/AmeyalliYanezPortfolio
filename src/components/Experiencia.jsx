@@ -3,7 +3,23 @@ const Experiencia = () => {
     return (
         <div id="experiencia">
       <h2 className='mt-8 mb-10 font-size-4rem font-900 color-darkgray'>Experiencia</h2>
-
+        <div className="bloque flex experiencia">
+                <div className="imagenCuadro">
+                    <p>2024 - Actualidad</p>
+                    <ul>
+                        <li>Asignada a cliente BBVA</li>
+                        <li>Maquetación con CSS, HTML, JS y CELLS</li>
+                        <li>Sitios Responsivos</li>
+                        <li>cCI/CD y DevOps</li>
+                        <li>Pruebas de código. Jest</li>
+                    </ul>
+                </div>
+                <div className="cuadro-primero cuadro text-center">
+                    <div className="cuadro-flotante">
+                    <h2 className="font-900">SNgular</h2>
+                    </div>
+                </div>
+            </div>
             <div className="bloque flex experiencia">
                 <div className="cuadro-primero cuadro text-center">
                     <div className="cuadro-flotante">
@@ -11,7 +27,7 @@ const Experiencia = () => {
                     </div>
                 </div>
                 <div className="imagenCuadro">
-                    <p>2018 - Actualidad</p>
+                    <p>2018 - 2021</p>
                     <ul>
                         <li>Diseño de sitios web</li>
                         <li>Maquetación y programación de sitios web</li>

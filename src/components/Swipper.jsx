@@ -33,7 +33,7 @@ const Swipper = () => {
         "link":"https://cmm.cenart.gob.mx/DisenaLab",
         "image":"/img/portafolio/disena1328.png",
         "description":"lorem impusummsds",
-        "tecno":"HTML | SCSS | JAVASCRIPT | GULP"
+        "tecno":"HTML | SASS | JAVASCRIPT | GULP"
       },
       {
         "project":"Centro Multimedia del Centro Nacional de las Artes",
@@ -57,7 +57,7 @@ const Swipper = () => {
         "link":"https://papiam.cenart.gob.mx/",
         "image":"/img/portafolio/papiam.png",
         "description":"lorem impusummsds",
-        "tecno":"HTML | SCSS | JAVASCRIPT | GULP | NodeJs"
+        "tecno":"HTML | SASS | JAVASCRIPT | GULP | NodeJs"
       },
       {
         "project":"Muestra Papiam",
@@ -65,7 +65,7 @@ const Swipper = () => {
         "link":"https://muestrapapiam.cenart.gob.mx/",
         "image":"/img/portafolio/muestra.png",
         "description":"lorem impusummsds",
-        "tecno":"HTML | SCSS | JAVASCRIPT | GULP | NodeJs"
+        "tecno":"HTML | SASS | JAVASCRIPT | GULP | NodeJs"
       },
       {
         "project":"Laboratorio LEIVA",
@@ -73,7 +73,7 @@ const Swipper = () => {
         "link":"https://leiva.cenart.gob.mx/",
         "image":"/img/portafolio/muestra.png",
         "description":"lorem impusummsds",
-        "tecno":"HTML | SCSS | JAVASCRIPT | GULP | NodeJs"
+        "tecno":"HTML | SASS | JAVASCRIPT | GULP | NodeJs"
       },
       {
         "project":"Administrador de Pacientes de Veterinaria",
@@ -84,20 +84,12 @@ const Swipper = () => {
         "tecno":"React JS | TailwindCSS | LocalStorage"
       },
       {
-        "project":"Administrador de clientes",
-        "anios":"2020",
-        "link":"https://comfy-cassata-d55953.netlify.app/",
-        "image":"/img/portafolio/cliente.png",
+        "project":"Ideomatics",
+        "anios":"2024",
+        "link":"https://idiomatics.com/",
+        "image":"/img/portafolio/veterinaria.png",
         "description":"lorem impusummsds",
-        "tecno":"React JS | TailwindCSS | JSON Server | API | React Router DOM"
-      },
-      {
-        "project":"Planificador de gastos",
-        "anios":"2020",
-        "link":"https://aesthetic-bunny-021704.netlify.app/",
-        "image":"/img/portafolio/planificador.png",
-        "description":"lorem impusummsds",
-        "tecno":"React JS  | LocalStorage | State"
+        "tecno":"React JS | SASS | ScrollMagic | GIT "
       }
     ]
   return (
