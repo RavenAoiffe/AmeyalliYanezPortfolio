@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div className='mt-11 text description footer'>
         <p>
-           Ameyalli Yáñez | Frontend Developer | Writing 
+           Ameyalli Yáñez | Frontend Developer | UI/UX Developer 
         </p>
     </div>
     );

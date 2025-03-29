@@ -51,11 +51,7 @@ const Header = () => {
 return(
 <nav id="menu" className={stickyClass ? 'fijo' : '' }>
   <div className="container">
-  <p className="fechas">
-    <strong>Ameyalli </strong>
-    Yáñez
-  </p>
-  <div className="menu-rs">
+      <div className="menu-rs">
     <div className="flex">
       <a
         href="https://www.linkedin.com/in/ameyalli-y%C3%A1%C3%B1ez-282013130/"
